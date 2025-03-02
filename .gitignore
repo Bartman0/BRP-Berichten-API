@@ -26,3 +26,5 @@ replay_pid*
 # Intellij
 *.iml
 /test/.venv/
+
+.idea/
