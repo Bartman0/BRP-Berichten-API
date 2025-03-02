@@ -1,0 +1,20 @@
+meta {
+  name: GET berichten 3000200
+  type: http
+  seq: 4
+}
+
+get {
+  url: https://brp-berichten-api.dictua.ictu-sr.nl/api/v1/berichten?berichtenPerPagina=1000
+  body: none
+  auth: basic
+}
+
+params:query {
+  berichtenPerPagina: 1000
+}
+
+auth:basic {
+  username: 3000200
+  password: Yk{dkqo_6$88gzSg
+}
