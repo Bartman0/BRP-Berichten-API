@@ -1,0 +1,21 @@
+meta {
+  name: GET berichten 2
+  type: http
+  seq: 11
+}
+
+get {
+  url: https://brp-berichten-api.dictua.ictu-sr.nl/api/v1/berichten?berichtenPerPagina=1000&vanafMoment=2025-03-01T14%3A54%3A08.986661%2B02%3A00
+  body: none
+  auth: basic
+}
+
+params:query {
+  berichtenPerPagina: 1000
+  vanafMoment: 2025-03-01T14:54:08.986661+02:00
+}
+
+auth:basic {
+  username: 2
+  password: {{BERICHTEN_API_PASSWORD}}
+}
