@@ -13,7 +13,8 @@ Method | HTTP request | Description
 
 Ping operatie t.b.v. het toetsen van de bereikbaarheid van de API vanuit de aangesloten partij.
 
-Deze operatie kan aangeroepen worden door aangesloten partijen om te verifiëren dat er communicatie met de berichtendienst mogelijks is. 
+Deze operatie kan aangeroepen worden door aangesloten partijen om te verifiëren dat er communicatie met de berichtendienst mogelijks is.
+
 
 ### Example
 
@@ -97,7 +98,8 @@ void (empty response body)
 
 Ping operatie t.b.v. het toetsen van de bereikbaarheid van de API vanuit de aangesloten partij.
 
-Deze operatie kan aangeroepen worden door aangesloten partijen om te verifiëren dat er communicatie met de berichtendienst mogelijks is. 
+Deze operatie kan aangeroepen worden door aangesloten partijen om te verifiëren dat er communicatie met de berichtendienst mogelijks is.
+
 
 ### Example
 

@@ -1,0 +1,2 @@
+disallowAdditionalPropertiesIfNotPresent: false
+useOneOfDiscriminatorLookup: true

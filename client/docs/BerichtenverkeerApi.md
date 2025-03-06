@@ -16,7 +16,8 @@ Method | HTTP request | Description
 
 Het verwijderen van een of meerdere berichten (DELETE).
 
-Verwijderen van een of meerdere berichten. De berichten kunnen na deze actie niet meer bij de berichten API opgehaald worden. 
+Verwijderen van een of meerdere berichten. De berichten kunnen na deze actie niet meer bij de berichten API opgehaald worden.
+
 
 ### Example
 
@@ -61,7 +62,7 @@ configuration = berichten_api.Configuration(
 with berichten_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = berichten_api.BerichtenverkeerApi(api_client)
-    bericht_transport_ids_param = ['28122289-f2f2-41c3-b33d-4c25c6620e9b'] # List[str] | Een UUID of meerdere UUID's van het bericht(en) die opgehaald moet worden. Indien meerdere UUID's, dan scheiden met een komma. Deze query parameter verwijst naar het berichtenId zoals deze bij de \"BRP berichten API\" bekend is, niet te verwarren met het BerichtId dat door de verzender is opgegeven. U verkrijgt deze UUID's middels een request naar `/berichten/list`. 
+    bericht_transport_ids_param = ['28122289-f2f2-41c3-b33d-4c25c6620e9b'] # List[str] | Een UUID of meerdere UUID's van het bericht(en) die opgehaald moet worden. Indien meerdere UUID's, dan scheiden met een komma. Deze query parameter verwijst naar het berichtenId zoals deze bij de \"BRP berichten API\" bekend is, niet te verwarren met het BerichtId dat door de verzender is opgegeven. U verkrijgt deze UUID's middels een request naar `/berichten`. 
 
     try:
         # Het verwijderen van een of meerdere berichten (DELETE).
@@ -79,7 +80,7 @@ with berichten_api.ApiClient(configuration) as api_client:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **bericht_transport_ids_param** | [**List[str]**](str.md)| Een UUID of meerdere UUID&#39;s van het bericht(en) die opgehaald moet worden. Indien meerdere UUID&#39;s, dan scheiden met een komma. Deze query parameter verwijst naar het berichtenId zoals deze bij de \&quot;BRP berichten API\&quot; bekend is, niet te verwarren met het BerichtId dat door de verzender is opgegeven. U verkrijgt deze UUID&#39;s middels een request naar &#x60;/berichten/list&#x60;.  | 
+ **bericht_transport_ids_param** | [**List[str]**](str.md)| Een UUID of meerdere UUID&#39;s van het bericht(en) die opgehaald moet worden. Indien meerdere UUID&#39;s, dan scheiden met een komma. Deze query parameter verwijst naar het berichtenId zoals deze bij de \&quot;BRP berichten API\&quot; bekend is, niet te verwarren met het BerichtId dat door de verzender is opgegeven. U verkrijgt deze UUID&#39;s middels een request naar &#x60;/berichten&#x60;.  | 
 
 ### Return type
 
@@ -110,7 +111,8 @@ Name | Type | Description  | Notes
 
 Het ophalen van een of meerdere berichten (GET).
 
-Dit endpoint gebruikt u om berichten op te halen. 
+Dit endpoint gebruikt u om berichten op te halen.
+
 
 ### Example
 
@@ -155,7 +157,7 @@ configuration = berichten_api.Configuration(
 with berichten_api.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = berichten_api.BerichtenverkeerApi(api_client)
-    bericht_transport_ids_param = ['28122289-f2f2-41c3-b33d-4c25c6620e9b'] # List[str] | Een UUID of meerdere UUID's van het bericht(en) die opgehaald moet worden. Indien meerdere UUID's, dan scheiden met een komma. Deze query parameter verwijst naar het berichtenId zoals deze bij de \"BRP berichten API\" bekend is, niet te verwarren met het BerichtId dat door de verzender is opgegeven. U verkrijgt deze UUID's middels een request naar `/berichten/list`. 
+    bericht_transport_ids_param = ['28122289-f2f2-41c3-b33d-4c25c6620e9b'] # List[str] | Een UUID of meerdere UUID's van het bericht(en) die opgehaald moet worden. Indien meerdere UUID's, dan scheiden met een komma. Deze query parameter verwijst naar het berichtenId zoals deze bij de \"BRP berichten API\" bekend is, niet te verwarren met het BerichtId dat door de verzender is opgegeven. U verkrijgt deze UUID's middels een request naar `/berichten`. 
 
     try:
         # Het ophalen van een of meerdere berichten (GET).
@@ -173,7 +175,7 @@ with berichten_api.ApiClient(configuration) as api_client:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **bericht_transport_ids_param** | [**List[str]**](str.md)| Een UUID of meerdere UUID&#39;s van het bericht(en) die opgehaald moet worden. Indien meerdere UUID&#39;s, dan scheiden met een komma. Deze query parameter verwijst naar het berichtenId zoals deze bij de \&quot;BRP berichten API\&quot; bekend is, niet te verwarren met het BerichtId dat door de verzender is opgegeven. U verkrijgt deze UUID&#39;s middels een request naar &#x60;/berichten/list&#x60;.  | 
+ **bericht_transport_ids_param** | [**List[str]**](str.md)| Een UUID of meerdere UUID&#39;s van het bericht(en) die opgehaald moet worden. Indien meerdere UUID&#39;s, dan scheiden met een komma. Deze query parameter verwijst naar het berichtenId zoals deze bij de \&quot;BRP berichten API\&quot; bekend is, niet te verwarren met het BerichtId dat door de verzender is opgegeven. U verkrijgt deze UUID&#39;s middels een request naar &#x60;/berichten&#x60;.  | 
 
 ### Return type
 
@@ -204,7 +206,8 @@ Name | Type | Description  | Notes
 
 Het ophalen van een lijst met berichten die klaarstaan (LIST).
 
-Dit endpoint gebruikt u om te achterhalen welke berichten er voor u beschikbaar zijn. 
+Dit endpoint gebruikt u om te achterhalen welke berichten er voor u beschikbaar zijn.
+
 
 ### Example
 
@@ -308,7 +311,8 @@ Name | Type | Description  | Notes
 
 Het versturen van een of meerdere berichten (PUT).
 
-Dit endpoint gebruikt u om berichten zoals gespecificeerd in het Logisch Ontwerp te versturen. 
+Dit endpoint gebruikt u om berichten zoals gespecificeerd in het Logisch Ontwerp te versturen.
+
 
 ### Example
 
